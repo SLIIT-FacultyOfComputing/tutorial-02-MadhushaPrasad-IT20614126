@@ -11,4 +11,8 @@ class Student{
         subject03 = 0;
     }
 
+    public void calcAndStoreAVG(){
+        
+    }
+
 }
