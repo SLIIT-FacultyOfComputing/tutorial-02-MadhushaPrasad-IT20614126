@@ -4,6 +4,8 @@ class Student{
     private double subject01;
     private double subject02;
     private double subject02;
+    //create a variable for store the average of three subjects
+    private double average;
 
     public Student(){
         subject01 = 0;
@@ -12,7 +14,7 @@ class Student{
     }
 
     public void calcAndStoreAVG(){
-        
+
     }
 
 }
