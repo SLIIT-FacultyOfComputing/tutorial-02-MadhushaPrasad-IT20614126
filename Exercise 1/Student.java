@@ -6,7 +6,9 @@ class Student{
     private double subject02;
 
     public Student(){
-
+        subject01 = 0;
+        subject02 = 0;
+        subject03 = 0;
     }
 
 }
