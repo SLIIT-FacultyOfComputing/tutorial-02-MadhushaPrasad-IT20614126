@@ -1,4 +1,6 @@
-class Student{
+import java.util.Scanner;
+
+public class Student{
 
     //declare a private field for the student's name
     private String studentName;
@@ -37,4 +39,10 @@ class Student{
         this.subject02 = subject02;
         this.subject03 = subject03;
     }
+
+    public static void main(String[] args) {
+        
+        
+    }
+
 }
