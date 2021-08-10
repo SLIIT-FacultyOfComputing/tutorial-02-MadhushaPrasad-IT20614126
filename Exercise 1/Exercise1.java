@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Student{
+class Student{
 
     //declare a private field for the student's name
     private String studentName;
@@ -9,7 +9,7 @@ public class Student{
     //create variables for store marks of three subjects
     private double subject01;
     private double subject02;
-    private double subject02;
+    private double subject03;
     //create a variable for store the average of three subjects
     private double average;
 
@@ -39,10 +39,13 @@ public class Student{
         this.subject02 = subject02;
         this.subject03 = subject03;
     }
+}
+
+public class Exercise1 {
 
     public static void main(String[] args) {
         
-        
     }
+
 
 }
