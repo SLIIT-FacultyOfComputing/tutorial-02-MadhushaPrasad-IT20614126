@@ -28,4 +28,13 @@ class Student{
         System.out.println("Student ID: " + studentID);
         System.out.println("Average: " + average);
     }
+
+    //set the student's name , ID number and the marks of three subjects
+    public void setDetails(String name, String id, double subject01, double subject02, double subject03){
+        this.studentName = name;
+        this.studentID = id;
+        this.subject01 = subject01;
+        this.subject02 = subject02;
+        this.subject03 = subject03;
+    }
 }
