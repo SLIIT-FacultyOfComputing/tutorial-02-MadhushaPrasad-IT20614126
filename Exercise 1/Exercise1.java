@@ -44,8 +44,41 @@ class Student{
 public class Exercise1 {
 
     public static void main(String[] args) {
-        
-    }
 
+        Student student = new Student();
+        
+        //get the student's name
+        System.out.print("Enter the student's name: ");
+        Scanner input = new Scanner(System.in);
+        String name  = input.nextLine();
+
+        //get the student's ID number
+        System.out.print("Enter the student's ID number: ");
+        Scanner input02 = new Scanner(System.in);
+        String id = input02.nextLine();
+
+        //get the marks of three subjects
+        System.out.print("Enter the marks of subject 1: ");
+        Scanner input03 = new Scanner(System.in);
+        double subject01 = input03.nextDouble();
+
+        System.out.print("Enter the marks of subject 2: ");
+        Scanner input04 = new Scanner(System.in);
+        double subject02 = input04.nextDouble();
+
+        System.out.print("Enter the marks of subject 3: ");
+        Scanner input05 = new Scanner(System.in);
+        double subject03 = input05.nextDouble();
+
+        //set the student's name , ID number and the marks of three subjects
+        student.setDetails(name, id, subject01, subject02, subject03);
+
+        //calculate and store the average of three subjects
+        student.calcAndStoreAVG();
+
+        //display the ID, name and the average marks of the student
+        student.display();
+
+    }
 
 }
