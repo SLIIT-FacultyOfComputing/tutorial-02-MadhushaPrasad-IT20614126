@@ -14,7 +14,7 @@ class Student{
     }
 
     public void calcAndStoreAVG(){
-
+        average = (subject01 + subject02 + subject03) / 3;
     }
 
 }
